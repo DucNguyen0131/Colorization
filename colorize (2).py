@@ -176,4 +176,4 @@ colorizedRGB[:,:,2] = B
 plt.imshow(colorizedRGB)
 plt.show()
 
-misc.imsave(os.path.join(dir_path, 'example3_colorized.bmp'), colorizedRGB, format='bmp')
+misc.imsave(os.path.join(dir_path, 'Colorized Photo Example.bmp'), colorizedRGB, format='bmp')
